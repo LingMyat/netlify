@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "netlify-lambda serve src",
-    "build": "netlify-lambda build src"
+    "build": "netlify deploy --prod"
   },
   "prisma": {
     "seed": "node prisma/seeders/DatabaseSeeder.js"
